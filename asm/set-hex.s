@@ -1,0 +1,3 @@
+	SET X, 0xF
+	BRK
+	;; CHECK: X=15
