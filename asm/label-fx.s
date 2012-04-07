@@ -6,5 +6,6 @@
 	SET PC, POP
 
 :halt
+	BRK
 	SET PC, halt
 	;; CHECK: X=1
